@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    it helped to only see the lines that where changed instead of having to analyze all of the lines in the files.
+    it helped reducing the time consumed in looking for the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Allowing me to see previous versions of the file allows me to go back to a copy I need instead
+    of having to rewrite it all over again.
+    It allows me to see how changes were made, allowing me to replicate this in current problems I have
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: I decide when to commit and what to commit, allowing me to commit whole sets of logical data
+    when I see fit and that its working (at least compiles).
+
+    Cons: I need to be aware of the time thats past since the last commit. Forgetting to commit or commiting
+    only part of the files needed. Time needed to commit instead of automtically done by software.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Cause in programming, you usually fix problems or add fucntionality that alter/creates multiple files, 
+    letting us to commit multiple files allows us to commit logical units that are composed of various files
+    but that are related in some way (like a bug fix, or a new functionality) 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I use git log to see the messages of each log and find the relevant one. We can also see, its commit-id,
+    its author and if we use the --stat argument we can see a brief text with the amounts of changes.
+    Using git diff we can inspect the actual changes done between to commits using their commit-ids. Here
+    we can see the lines deleted and the lines added in colors.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Easy, cause I know that previous version are still there for me to checkout if I see that I 
+    have broken something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to try Git for my personal projects so I can track changes in them

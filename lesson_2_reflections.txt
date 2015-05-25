@@ -20,3 +20,10 @@ What are some situations when branches would be helpful in keeping your history 
    When you'd like to experiment something new but don't want to break your main branch. 
    Or when you want to have a different version with some changes in your code but want to keep your
    main development clean.
+
+How do the diagrams help you visualize the branch structure?
+
+   It helps to show each commits father, thus showing you if there are any nodes that aren't reachable
+   from any of the branches. It also helps you see from which node each branch was created and how far 
+   ahead each branch tip is in the history.
+

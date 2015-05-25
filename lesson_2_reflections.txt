@@ -36,3 +36,8 @@ What is the result of merging two branches together? Why do we represent it in t
    We represent it that way cause its easier to see and understand the history of changes and see each
    commits parent.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+   Pros: time saving.
+   Cons: can brake your code, it uses simple heuristics to do the merge, can't know if what is merging
+   is correct according to the coders logic.

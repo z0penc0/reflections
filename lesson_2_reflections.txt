@@ -27,3 +27,12 @@ How do the diagrams help you visualize the branch structure?
    from any of the branches. It also helps you see from which node each branch was created and how far 
    ahead each branch tip is in the history.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+   The result is in unifying the code from the las two commits from both merged branches, creating a 
+   new node from which you can access all the commits from both branches, this is due to the new node 
+   having two parents (both tips from the merged branches). The merged histories will be interleaved 
+   by the timestamp from each commit, but each commit parent will still be the same as before the merge.
+   We represent it that way cause its easier to see and understand the history of changes and see each
+   commits parent.
+

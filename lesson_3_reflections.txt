@@ -3,3 +3,6 @@ When would you want to use a remote repository rather than keeping all your work
 	When I would like to share my work with people.
 	When I need a backup to store my files more securely. 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Cause I prefer to have control over the state of my working copy, knowing what I have. Automatically pulling changes can lead to errors, conflicts between versions or missing changes in your files.

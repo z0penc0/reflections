@@ -20,3 +20,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	I would colaborate with others passing the files to each other. As a method its easier cause you just need to pass the file around and not do all of the stuf like add, commit, push, pull, merge...etc. On the other hand its really a recipe for disasster, you can very easily lose changes, or merge the changes in the wrong way, you lose track of previous changes, and lose track of who made the changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	when changes have a degree of complexity that requires a different branch to work on, so that you don't brake the master branch. Making changes directly on master is pretty much faster. Making changes on branches gives you more control over whats being added and that it will work.
